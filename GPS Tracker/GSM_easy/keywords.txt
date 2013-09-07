@@ -1,0 +1,55 @@
+#######################################
+# Syntax Coloring Map for GSM_easy
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GSM	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+initialize	KEYWORD2
+Status	KEYWORD2
+RingStatus	KEYWORD2
+pickUp	KEYWORD2
+sendSMS	KEYWORD2
+numberofSMS	KEYWORD2
+readSMS	KEYWORD2
+deleteSMS	KEYWORD2
+dialCall	KEYWORD2
+sendDTMF	KEYWORD2
+exitCall	KEYWORD2
+connectGPRS	KEYWORD2
+sendHTTPGET	KEYWORD2
+sendPING	KEYWORD2
+disconnectGPRS	KEYWORD2
+EMAILconfigureSMTP	KEYWORD2
+EMAILconfigureSender	KEYWORD2
+EMAILrecipients	KEYWORD2
+EMAILbody	KEYWORD2
+EMAILsend	KEYWORD2
+FTPopen	KEYWORD2
+FTPdownload	KEYWORD2
+FTPclose	KEYWORD2
+WaitofDownload	KEYWORD2
+WaitofReaction	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+GPS_INVALID_AGE	LITERAL1
+GPS_INVALID_ANGLE	LITERAL1
+GPS_INVALID_ALTITUDE	LITERAL1
+GPS_INVALID_DATE	LITERAL1
+GPS_INVALID_TIME	LITERAL1
+GPS_INVALID_HDOP	LITERAL1
+GPS_INVALID_SATELLITES	LITERAL1
+GPS_INVALID_F_ANGLE	LITERAL1
+GPS_INVALID_F_ALTITUDE	LITERAL1
+GPS_INVALID_F_SPEED	LITERAL1
