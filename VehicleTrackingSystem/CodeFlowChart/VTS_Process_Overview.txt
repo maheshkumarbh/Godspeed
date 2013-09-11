@@ -3,5 +3,5 @@ Process Flow for VTS(vehicle Tracking System)
 Step 1: Receive APN and GPS configuration message. Send ACK.
 Step 2: Microcontroller configures GSM and GPS.
 Step 3: Get GPS data, parse and store in EEPROM. (Lattitude,Longitude,Speed,Time Stamp)
-Step 4: Send HTTP parsed message to server every 'x' minutes.
+Step 4: Send the parsed data as a message to that specific number which sent the configuration message after every 'x' minutes.
 Step 5: Jump to power saving mode.(GPS,GSM)
